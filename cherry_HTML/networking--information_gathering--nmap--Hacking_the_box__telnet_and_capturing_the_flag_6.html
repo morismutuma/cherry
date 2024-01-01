@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Hacking the box  telnet and capturing the flag</title>
+  <meta name="generator" content="CherryTree">
+  <link rel="stylesheet" href="res/styles4.css" type="text/css" />
+</head>
+<body>
+<div class='page'><h1 class='title'>Hacking the box  telnet and capturing the flag</h1><br/><p>The procedure to how i started hacking the box </p><p></p><p>1 first is information gathering using nmap</p><p><ul><li>first connect to the box by using the vpn file you downloaded and run  the command  in your linux terminal</li><li>sudo openvpn  morism.vpn</li></ul></p><p></p><p>     second gather information to see which port are open </p><p>       </p><p>       - you can run various command here using nmap</p><p>       </p><p>      sudo nmap -p 22,23,53,80  10.129.90.129  -the ip is the ip of the box or target machine port you can scan any of your like</p><p>      <img src="images/6-1.png" alt="images/6-1.png" /></p><p>        </p><p>        </p><p>     then from image you can see the open ports so you can use searchsploit tool to gather more information on open port</p><p>     - use command </p><p>     searchsploit telnet  -telnet is name of service of open port</p><p>     </p><p>     <img src="images/6-2.png" alt="images/6-2.png" />hhhh</p><p>     </p><p>     <img src="images/6-3.png" alt="images/6-3.png" />k</p><p>     </p><p>     then after that  you can use still search sploit to help you locate various file </p><p>     </p><p>          -searchsploit -x linux_mips/27132.txt</p><p><img src="images/6-4.png" alt="images/6-4.png" />hj</p><p></p><p></p><p>then you can use the service command and its ip addre to connect your self</p><p></p><p>      telnet 10.129.90.129   - the system will show  if connected and then you will be prompted to login password is root and then you will have the priviledges</p><p>      </p><p>      <img src="images/6-5.png" alt="images/6-5.png" /></p><p>      </p><p>      </p><p>      </p><p><img src="images/6-6.png" alt="images/6-6.png" />j</p><p>            logged in you have all the priviledges</p><p><img src="images/6-7.png" alt="images/6-7.png" /></p></div>
+</body>
+</html>
