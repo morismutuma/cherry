@@ -1,0 +1,96 @@
+# notee
+ls -l - shows only visible files
+ls -la - shows hidden files
+
+
+changig ownership of file of folder nb -R is for recursive in folder no need to use in file
+sudo chown -R user file/foldername eg  for users 
+
+sudo chgrp -R groupname file/foldername eg 
+
+
+
+changing file or folder permission
+- rwx rw- r-- this means is a file the first - then rwx is for the owner of file can read write and execute the file the second rw- is for group can read write but cannot executusers can only read but cannot write or execute the file
+u -user  eg chmod o+w filename or o-w filename chmod 754 filename 
+g- group 
+o- other
+
+sudo chmod 777 filename/foldername  -r ie -r means recursive you do not need to change file down again
+
+0 - means no permission eg -
+1 - means execute eg +x
+2 - means write eg w
+4 - means read eg r   
+
+so if you see 765 -means you are giving first group all permission ie 4+2+1  second group 4+2 and third group 4  
+ 673  this means your giving first group 4+2 second group 4+2+1 and third group 4+0+1
+
+
+
+adding user in system
+sudo useradd moris-----------for system
+passw: 1234
+
+checking if user is added
+id moris
+
+deleting user in system 
+sudo userdel moris------for sustem
+
+
+checking their credentials
+cat /etc/passwd
+
+
+adding group 
+
+sudo groupadd group1
+
+checking if group has been added 
+
+getent group group1
+
+
+adding user to a group
+sudo adduser ann group2-------------for group
+sudo usermod -aG group1 moris
+
+checkig if user has been added in group
+
+id moris
+
+deleting user in a group
+
+sudo gpasswd -d moris group1 
+
+sudo deluser moris group1-----------group
+
+
+
+
+deleting a group 
+
+sudo groupdel group1
+
+checking group credentials
+
+sudo vin /etc/group
+
+
+
+checking and killing process
+
+ps aux = means show all running processes
+
+pkill 54412
+
+kill -9 54412
+
+
+
+
+
+
+
+

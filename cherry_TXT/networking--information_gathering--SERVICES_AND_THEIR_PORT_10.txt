@@ -1,0 +1,102 @@
+### SERVICES AND THEIR PORT
+FTP (File Transfer Protocol):
+Port: 21 (Control), 20 (Data)
+Purpose: Used for transferring files between a client and server on a network.
+
+SSH (Secure Shell):
+Port: 22
+Purpose: Provides secure, encrypted communication for command-line, remote login, and other network services.
+
+
+Telnet:
+Port: 23
+Purpose: Provides an unencrypted, text-based interface for remote login to other computers on a network.
+
+SMTP (Simple Mail Transfer Protocol):
+Port: 25
+Purpose: Used for sending email between servers on a network.
+
+DNS (Domain Name System):
+Port: 53
+Purpose: Resolves domain names to IP addresses and vice versa.
+
+HTTP (Hypertext Transfer Protocol):
+Port: 80
+Purpose: Used for transferring hypertext (web) content between a web server and a client's browser.
+
+HTTPS (HTTP Secure):
+Port: 443
+Purpose: A secure version of HTTP, encrypting data during transmission, commonly used for secure online transactions.
+
+POP3 (Post Office Protocol version 3):
+Port: 110
+Purpose: Retrieves emails from a server to a client.
+
+IMAP (Internet Message Access Protocol):
+Port: 143
+Purpose: Allows email clients to access and manipulate email messages on a mail server.
+
+SNMP (Simple Network Management Protocol):
+Port: 161 (SNMP), 162 (SNMP Trap)
+Purpose: Used for monitoring and managing network devices.
+
+LDAP (Lightweight Directory Access Protocol):
+Port: 389
+Purpose: Provides a directory service for accessing information in a network directory.
+
+HTTPS (LDAP over TLS/SSL):
+Port: 636
+Purpose: Secure version of LDAP.
+
+NetBIOS (Network Basic Input/Output System):
+Port: 137 (NetBIOS Name Service), 138 (NetBIOS Datagram Service), 139 (NetBIOS Session Service)
+Purpose: Allows applications on separate computers to communicate over a local network.
+
+Microsoft SMB (Server Message Block):
+Port: 445
+Purpose: Used for file and printer sharing, as well as other communications between computers.
+
+RDP (Remote Desktop Protocol):
+Port: 3389
+Purpose: Allows a user to control a remote computer as if they were physically present.
+
+MySQL Database Server:
+Port: 3306
+Purpose: Used for managing and accessing MySQL databases.
+
+PostgreSQL Database Server:
+Port: 5432
+Purpose: Used for managing and accessing PostgreSQL databases
+
+Oracle Database Server:
+Port: 1521
+Purpose: Used for managing and accessing Oracle databases.
+
+NTP (Network Time Protocol):
+Port: 123
+Purpose: Synchronizes the clocks of computer systems over a network.
+
+DHCP (Dynamic Host Configuration Protocol):
+Port: 67 (DHCP Server), 68 (DHCP Client)
+Purpose: Automatically assigns IP addresses and other network configuration information to devices on a network.
+
+Kerberos Authentication:
+Port: 88
+Purpose: Provides secure authentication for network services.
+
+HTTP Proxy (e.g., Squid):
+Port: 3128
+Purpose: Acts as an intermediary between client and server for HTTP requests.
+
+FTP Data (Passive Mode):
+Port Range: 1024-65535 (configurable)
+Purpose: Used for data transfer in FTP's passive mode.
+
+SMTPS (SMTP over TLS/SSL):
+Port: 465
+Purpose: A secure version of SMTP for encrypted email communication.
+
+Submission (Mail Submission):
+Port: 587
+Purpose: Used for email submission by clients to a mail server.
+

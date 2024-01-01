@@ -1,0 +1,14 @@
+#### FTP
+FTP  -- File Transfer protocal    it listens to port   -21
+SFTP ---Secure File Transfer Protocal
+
+
+SSH ---Secure Shell
+
+SSL--- Secure Socket Layer
+
+TSL --- Transport Layer Security
+
+
+SMB --- Server Message Block listens to port 445 
+

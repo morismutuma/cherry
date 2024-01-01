@@ -1,0 +1,3 @@
+## information gathering
+once you get the service try to find the kinds of commands it uses coz different services may use different command in their command line eg Redis command uses INFO for information  may be diffent from one in kali terminal we use ls or man to help us 
+
